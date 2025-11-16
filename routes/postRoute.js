@@ -1,20 +1,14 @@
 const router = require("express").Router();
 const {
-  addComment,
-  getAllComments,
-  getCommentById,
-  updateComment,
-  deleteComment,
-  getCommentsByPost
-} = require("../controllers/comment.controller");
+  addPost,
+  getAllPosts,
+  getPostById,
+  updatePost
+} = require("../controllers/postContoller");
 
-router.post("/", addComment);
-router.get("/", getAllComments);
-router.get("/:id", getCommentById);
-router.put("/:id", updateComment);
-router.delete("/:id", deleteComment);
-
-// get comments for specific post
-router.get("/post/:postId", getCommentsByPost);
+router.post("/", addPost);
+router.get("/", getAllPosts);
+router.get("/:id", getPostById);
+router.put("/:id", updatePost);
 
 module.exports = router;
