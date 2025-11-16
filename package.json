@@ -1,0 +1,20 @@
+{
+  "name": "webdev2ex1",
+  "version": "1.0.0",
+  "description": "Web Development course repo excercise 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunusha712/WebDev2Ex1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nunusha712/WebDev2Ex1/issues"
+  },
+  "homepage": "https://github.com/nunusha712/WebDev2Ex1#readme"
+}
